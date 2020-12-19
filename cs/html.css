@@ -1,0 +1,95 @@
+/* = import 960.gs css framework */
+@import url(css/960.gs.css);
+/* 960.gs css framework */
+
+/* ------------------
+ * gobal settings
+ * --------------- */
+body {
+	background: url(images/bg.jpg) top repeat-x;
+}
+/* ------------------
+ * header
+ * --------------- */
+#header {
+	position:relative;
+	margin-top:10px;
+}
+#title {
+	margin-left:5px;
+	width:500px;
+	float:left;
+	font-size:100%;
+	float: center;
+}
+#header h5 {/*yet not*/
+	color:black;
+	font-weight:normal;
+}
+#header img {/*12 图片*/
+	border:5px solid lightgrey;
+	margin-right:5px;
+	float:left;
+}
+.imagehover:hover {/*隐藏图片*/
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+.navlink {/*首页 love letter*/
+	line-height:60px;
+	padding-left: 5px; 
+	height: 53px; 
+	text-decoration: none; 
+	color: black;
+	margin-top: 0px;
+}
+h2 {/*小鹤桐学*/
+	margin-left: 300px;
+	font-weight: normal;
+	font-size: 165%;
+}
+h3 {/*love*/
+	margin-left: 350px;
+	font-weight: normal;
+}
+
+/* ------------------
+ * container 
+ * --------------- */
+#content table {
+	margin:0px;
+	width:100%;
+	border:0px;
+}
+
+.member {/*中间色块*/
+	width: 1100px ;
+	background-color:#55aa7f;
+	color:#fff;
+	margin-top: 5px;
+    margin-bottom:5px;
+}
+.member img {/*中间图片*/
+    margin-top: 1px;
+	margin-right:5px;
+	border:5px solid #ffffff;
+}
+.memberDetail {
+	height:400x;
+	padding-right:300px;
+		padding-left:300px;
+			padding-top:300px;
+				padding-bottom:350px;
+		font-size: 100%;
+	float:center;
+}
+
+/* ------------------
+ * footer 
+ * --------------- */
+#footer {
+    margin-top: 15px;
+    padding: 15px 0;
+    text-align: center;
+}
+
